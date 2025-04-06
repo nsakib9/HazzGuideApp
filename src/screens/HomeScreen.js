@@ -22,7 +22,7 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("StepByStepGuide")}
         >
           <Icon name="list-alt" size={24} color="#fff" style={styles.icon} />
-          <Text style={styles.menuText}>Hajj Steps</Text>
+          <Text style={styles.menuText}>	হজ্বের ধাপসমূহ</Text>
         </TouchableOpacity>
 
         {/* Important Duas */}
@@ -31,7 +31,7 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("DuaCollection")}
         >
           <Icon name="book" size={24} color="#fff" style={styles.icon} />
-          <Text style={styles.menuText}>Important Duas</Text>
+          <Text style={styles.menuText}>গুরুত্বপূর্ণ দোয়াগুলো</Text>
         </TouchableOpacity>
 
         {/* Live Map */}
@@ -40,7 +40,7 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("MapNavigation")}
         >
           <Icon name="map" size={24} color="#fff" style={styles.icon} />
-          <Text style={styles.menuText}>Live Map</Text>
+          <Text style={styles.menuText}>লাইভ মানচিত্র / হজ্ব মানচিত্র</Text>
         </TouchableOpacity>
 
         {/* Preparation Tips */}
@@ -49,7 +49,7 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("Checklist")}
         >
           <Icon name="check-circle" size={24} color="#fff" style={styles.icon} />
-          <Text style={styles.menuText}>Preparation Tips</Text>
+          <Text style={styles.menuText}>	প্রস্তুতির পরামর্শ</Text>
         </TouchableOpacity>
 
         {/* Help Center */}
@@ -58,7 +58,7 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("SettingsAbout")}
         >
           <Icon name="info-circle" size={24} color="#fff" style={styles.icon} />
-          <Text style={styles.menuText}>Help Center</Text>
+          <Text style={styles.menuText}>সহায়তা কেন্দ্র</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
